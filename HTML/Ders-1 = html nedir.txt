@@ -1,0 +1,5 @@
+HTML - Hyper Text Markup Language kelimelerinin kısaltılmışıdır.
+
+--> web sayfasındaki metin, resim, video eklediğimiz kodları yazar.
+
+--> buton bastığımızda 2. bir sayfa yönlendirir.

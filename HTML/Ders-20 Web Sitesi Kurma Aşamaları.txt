@@ -1,0 +1,8 @@
+free hosting alan adı aldık
+
+filezilla açtık ve sol üstten dosya kutucuğunun altına tıkladık 
+-açılan pencerede "Sitelerim" geldi yeni site dedik ve isim verdik
+-sağ taraftaki;
+sunucu, kapı numarası(21), kullanıcı adı ve parola yı açtığımız hostingte verilenler ile
+doldurduk. bağlantı kur dedik
+

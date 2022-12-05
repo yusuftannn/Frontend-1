@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                border-style: solid;
+                border-width: 5px;
+                border-color: green;
+                background-color:white;			-->> kutu içi rengi 
+                color:black;
+                width: 160px;
+                height: 25px;
+                background-image: url(resimler/martı.jpg);	-->> kutu arkasına resim koyduk.
+                background-size: 200px;			-->> kutu arkası resimin pixeli
+            }
+            h1{
+                border-style: solid;			-->> kutu çerçevese varsayılanı "none"dur bu kod ile çerçeveyi çizdik.
+                border-width: 10px 20px 30px 40px;	-->> çizgi kalınlığı	(üst sağ alt sol kalınlıkları)	2 kalınlık verirsek 1. üst,alt 2. sağ, sol belirler
+                border-color: red yellow black green;	-->> kenarlık rengi	(üst sağ alt sol renkleri)	2 renk verisek 1. üst alt 2. sağ, sol belirler
+                width: 165px;			-->> genişlik
+                height: 35px;			-->> yükseklik
+                padding: 0px 50px 10px 30px;		-->>içerik ile kenarlık arası boşluk..!!	(1. üstten 0px 2. sağdan 50px 3.alttan 10px 4.soldan 30px;)
+                margin: 30px; 			-->>kenarlık ile etraftaki nesneler arası boşluk..!!
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Eğitimlerimiz</h1>
+        <h2>Temel Bilişim</h2>
+        <p>Windows</p>
+        <p>Word</p>
+        <p>Excel</p>
+    </body>
+</html>
+
+------------ Kutu Kenar Kodları ------------ 
+border-style	kenar çizgi tipi
+border-with	çizgi kalınlığı
+border-color	kenarlık rengi 

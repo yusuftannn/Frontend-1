@@ -1,0 +1,32 @@
+body{     
+    margin-top: 90px;
+  }
+  #ustmenu li{
+   overflow: hidden;
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: calibri,arial,verdana;
+    line-height: 50px;
+    float: left;
+  }
+  #ustmenu a{
+    padding-top: 5px;
+    text-decoration: none;
+    color: darkgrey;
+    display: block; /*a etiketinin etki alanını nesne boyutlarına eşitler*/  
+    text-align: center;
+    transition: 1s;  
+  }
+   #ustmenu span{
+    display: block;
+    margin-top:-60px;
+  }
+  #ustmenu a:hover{
+    color: white;
+    margin-top:55px;
+  }   

@@ -1,0 +1,93 @@
+<head>
+        <style>
+            *{			-->> tüm kodlara uygular
+                color: red;
+            }
+        </style>
+    </head>
+
+-----------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{			-->> h1 kodlarına uygulandı..
+                color:red;
+            }
+            p{			-->> p kodlarına uygulandı..
+                color:blue;
+            }
+            #ilk{
+                color:olive;		-->>  id si ilk olana uygular. ( # ten sonra id ismi )
+            }
+            #ikinci{
+                color:black;		-->>  id si ikinci olana uygular. ( # ten sonra id ismi )
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Başlık1</h1>
+        <p id="ilk">Merhaba</p>
+        <p id="ikinci">Nasılsınız</p>
+    </body>
+</html>
+
+------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .mavi{		-->> class oluşturduk
+                color:blue;
+            }
+            .yesil{		-->> class oluşturduk
+                color:green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Başlık1</h1>
+        <p id="ilk">Merhaba</p>
+        <p class="yesil" id="ikinci">Nasılsınız</p>		-->> bu değişmez **id daha önceliklidir.
+        <p class="yesil">asd asd asdas das das das</p>	-->> classı uygulamak istediğimiz koda yazdık.
+    </body>
+
+</html>
+
+-------------------------------------------------------------------------------
+**** Grup Seçici Komutları *****
+<!DOCTYPE html>
+<html>
+    <head>
+       <style>
+           h1,h2{		-->> h1 ve h2 kodlarına uygulanır.
+               color:slateblue
+           }
+           h1 u{		-->> h1 kodlarındaki <u>(altı çizilen kelimeye) uygulanan kodu yeşil yapar.
+               color:green;
+           }
+           p #mi{		-->> p kodundaki "mi" idli kelimeye uygula
+               color:initial;
+               font-style: oblique;
+           }
+           p.eğik{		-->> paragrafa uygulanacak "eğik" classı ile bu kod uygulanır.
+               font-style: italic;
+           }
+       </style>
+    </head>
+    <body>
+        <h1>Eğitimlerimiz:</h1>
+        <h2>Temel Bilişim Eğitimleri</h2>
+        <p class="eğik">Windows</p>		-->> eğik yapar.
+        <p>Word</p>
+        <p>Excel</p>
+        <p>Powerpoint</p>
+
+        <h2>İleri Bilişim Eğitimleri</h2>
+        <p>HTML</p>
+        <P>CSS</P>
+        <P>Javascript</P>
+        <p>c#</p>
+        <p>Nesne <span id="mi">Tabanlı</span> Programlama</p>
+    </body>
+</html>

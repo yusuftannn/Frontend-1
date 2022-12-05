@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+               /* Paragraf Özellikleri */
+                text-indent: 50px;				-->> paragraf başını 50px öteler.
+                text-align: center;				-->> paragrafı ortaya alır.
+                text-align: left;				-->> ilk satırlar hariç sola dayalı yapar(genelde left yazılır.)
+                line-height: 20px;				-->> satırlar arası boşluk.
+	/* Metin Özellikleri */
+                 font-family: 'Times New Roman', Times, serif;	-->> yazı tipi	
+                color:aqua;					-->> yazı rengi
+                font-size: 15px;				-->> yazı boyutu
+                font-weight: bold;				-->> yazı kalınlığı 
+                font-style: italic;				-->> yazı stili (italik oldu)
+                font-variant:small-caps;			-->> küçük boyutlu  tüm harfleri büyük yaptı
+                text-transform:lowercase;			-->> tüm harfleri küçük yapar
+       ***    text-decoration: none;			-->> ***kelimenin altı çiziliyse kaldırır.
+                letter-spacing: 1px;				-->> harfler arası boşluk 
+                word-spacing: px;				-->> kelimeler arası boşluk
+
+
+            }
+        </style>
+    </head>
+
+------------------------------------------------------------------------------------
+Paragraf Liste tipi 
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            ul{
+                list-style-type:square;			-->> Kare şeklinde liste oluştu.			
+            }
+        </style>
+    </head>

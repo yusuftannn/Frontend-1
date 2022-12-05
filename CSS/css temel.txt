@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>Satır İçi CSS</h1>
+        <p style="color: red;">		-->> yazıyı kırmızı yaptı ( style css kodu uyguladık)
+            Yusuf Tan
+        </p>
+    </body>
+</html>
+
+***** Sayfa içi CSS kodlarını ise "head" bölümü içine yazarız. *****
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                color:blue;			-->> tüm h1 kodları bu özellikleri taşır.
+                font-size: 50px;
+            }
+            p{
+                color:moccasin;		-->> tüm paragraf kodları bu özellikleri taşır.
+                font-size: medium;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Satır İçi CSS</h1>
+        <p>
+            Yusuf Tan
+        </p>
+        <h1>Sayfa İçi CSS</h1>
+    </body>
+</html>
+
+----------------------------------------------------------------------
+Öncelik Sırası;
+1- 	<p style="color: red">	-->> p kodunun içine yazılan 1.
+2-	<head>			-->> head kodunun içine yazılan 2.
+        	<style>
+        	    p{
+     	          color : darkred;
+      	      }
+      	  </style>
+   	 </head> 
+
+3- <head> içine yazdığımız link kodunda oluşturduğumuz dosya still.css 3. öncelik
+
+
+
+
+

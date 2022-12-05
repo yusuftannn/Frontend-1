@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Üye Kayıt Formu:</h1>
+        <form name="kayit" action="kayit.php" method="GET">
+            Ad Soyad: <input type="text" name="adsoyad" id="adsoyad"
+            size="20" maxlength="30" required >			-->> size="20" **metin kutusu 20 karakter genişliğinde
+            <br>						-->> maxlength="30" **30 karater girilebilecek (required = boş bırakılamaz.)
+            <input type="submit">
+        </form>
+    </body>
+</html> 
+
+
+-------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Üye Kayıt Formu:</h1>
+        <form name="kayit" action="kayit.php" method="GET">
+            Ad Soyad: <input type="text" name="adsoyad" id="adsoyad"
+            size="20" maxlength="30" required >
+            <br>
+            <input type="submit">			-->> böyle bırakılırsa oto kutu içine Gönder yazar
+            <input type="submit" value="Onayla">	-->> value koduyla ismini değişmiş olduk
+            <input type="reset">			-->> oto Sıfırla yazar
+            <input type="reset" value="Temizle">	-->> value koduyla kutu içi ismi Temizle oldu
+        </form>
+    </body>
+</html> 
+
+Ad Soyad: <input type="text" name="adsoyad" id="adsoyad"
+size="20" maxlength="30" required placeholder="ad soyad yazılmalı">
+
+öneri : <textarea name="oneri" rows="5" cols="30"></textarea>
+**placeholder kodu yazılacak kutu içinde silik yazı yazar.
+
+<textarea> kodu çoklu metin alanı yazarken kullanılır 
+rows kodu = satır sayısı
+cols kodu = satır genişliği
+
+----------------------------------------------------------------------
+<form action="action_page.php>	action kodu göndere bastığımızda kaydedilecek yeri belirler.
+
+</form>
+
+
+<input type="text"			-->> metin kutusu
+
+<input type="radio" 		-->> onay kutusu oluşturur
+**name leri aynı olmalı.
+**aynı yazmazsak hepsi seçilebilir.
+
+<input type="checkbox		-->> seçenek kutusu oluşturur
+**name leri farklı olmak zorunda
+**value leri farklı
+<input type="submit"		-->> gönder kutusu
+
+
+
+

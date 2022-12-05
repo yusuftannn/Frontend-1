@@ -1,0 +1,149 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#sayfa{
+    width: 900px;
+    min-height: 600px;
+    border-style: solid;
+    border-width: 1px;
+    background-image: url(pictures/martı.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+
+}
+#banner{
+    width: 900px;
+    height: 100px;
+    border-style: solid;
+    border-width: 1px;
+    margin:auto;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    border-style: none;
+    border-width: 1px;
+    position:relative;
+    top:10px;
+    left: 10px;
+    bottom: 10px;
+    float: left;
+}
+#sosyal{
+    width: 150px;
+    height: 60px;
+    border-style: none;
+    border-width: 1px;
+    float: right;
+    position: relative;
+    top:30px;
+    right:10px;
+}
+#ikon{
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 17px;
+
+}
+#logo{
+    width: 80px;
+    height: 80px;
+}
+#anamenu{
+    width: 900px;
+    height: 50px;
+    border-style: solid;
+    border-width: 1px;
+    margin:auto;
+}
+#anamenu ul{
+    list-style-type: none;
+
+}
+#anamenu ul li{
+    width: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color:black;
+    background-color:lightblue;
+    float:left;
+    padding: 5px;
+    margin-left: 30px;
+    position: relative;
+    top: 10px;
+    left: 130px;
+    text-align: center;
+}
+#anamenu ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium ;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+#anamenu ul a:link{
+    color:blue;
+}
+#anamenu ul a:visited{
+    color:grey
+}
+#anamenu ul a:hover{
+    color:moccasin;
+}
+#anamenu ul a:active{
+    color:navy
+}
+#icerik{
+    width: 600px;
+    min-height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    margin:auto;
+    float: left;
+}
+p{
+    color: black;
+    font-weight: bold;
+    font-size: larger;
+}
+h1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#yanmenu{
+    width: 296px;
+    min-height: 400px;
+    border-style: solid;
+    border-width: 1px;
+    margin:auto;
+    float: left;
+}
+#altmenu{
+    width: 898px;
+    height: 43px;
+    border-style: solid;
+    border-width: 1px;
+    margin:auto;    
+    float: left;
+    text-align: center;
+}
+#altmenu a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: bolder;
+    text-decoration: none;
+    color:black;
+}
+#altmenu a:hover{
+    color:grey
+}
+.haklarısaklıdır{
+    font-size: medium;
+    color: rgb(58, 38, 38);
+}

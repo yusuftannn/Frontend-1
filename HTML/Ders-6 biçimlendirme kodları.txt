@@ -1,0 +1,10 @@
+<b> 	-->> kalın yapar
+<em>	-->> italik yapar ( semantiktir.)
+<i>	-->> italik yapar
+<small>
+<strong>	-->> kalın yapar (semantiktir.)
+<sub>
+<sup>
+<ins>
+<del>
+<mark>	-->> kelimeyi boyalı kare içine alır.

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                border-style: outset;
+                width: 200px;
+                height: 100px;
+                background-color:orange;
+                background-image: url(resimler/martı.jpg);
+                background-size: 200px;
+                background-repeat: no-repeat;		-->> tekrar etme (repeat yaparsak yan yana dizer)
+                background-position:center;		-->> kutu içi fotoyu ortalar.
+                background-attachment: fixed;		-->> body classı olarak uygulayarak tüm sayfayı kaplarız ve resim aşağı yukarı kaydırsakta ekranda gözükür(ortada kalır)
+                background-attachment: scroll;		-->> resim en üstte kalır aşağı inince kaybolur..
+
+                color:black;
+                
+
+            }
+        </style>
+    </head>
+    <body>
+        <h1>En güncel haberler burada</h1>
+        <p>creative news</p>
+        <p>güncel haberin tek adresi</p>
+    </body>
+</html>
+
+-----------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border-style: solid;
+                border-color:white;
+            }
+            #buyuk{
+                width: 200px;;
+                height: 100px;
+                background-color:aqua;
+                position:fixed;		-->> bu kod ile kutuyu istediğimiz yerlere götürebiliriz.
+                right:30px;	
+                bottom:20px;		-->> altttan 20px
+            }
+            #kucuk{
+                width: 100px;
+                height: 50px;
+                background-color: forestgreen;
+                position: relative;		-->> bulunduğu konuma göre hareket eder.
+                left:10px;
+                top:10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="buyuk">
+            <div id="kucuk">
+
+            </div>
+        </div>
+        
+    </body>
+</html>
+
+-------------------------------------------------------------------
+position:static; Her kutunun varsayılan değeridir. Static değere sahip kutular nereye
+konulduysa orada bulunurlar. Kutuların varsayılan değeridir.
+
+position:relative; Kutunun bulunduğu konumuna göre taşınmasını sağlar.
+
+position:fixed; Kutunun sayfaya göre ayarlanmasını sağlar.
+
+position:absolute; Başka kutu içinde bulunan kutuları kontrol etmek için kullanılır. İçinde
+bulunduğu kutuya göre üstten, sağdan, alttan ve soldan mesafeler
+verilerek kutunun konumu ayarlanır.
+
+-----------------------------------------------------------------------
+*** kutular üst üste bindiği zaman üstte gözüktürmek istediğimiz kutuya;
+z-index: 1;
+diğerine ise;
+z-index: -1;
+
+                border-radius: 300px;		-->> çerçeve köşelerini yuvarlak yapar
+
+                overflow: auto;		-->> eğer cümleler taşıyorsa kaydırma çubuğu koyar.
+
+
+                box-shadow: yellow 10px 10px 10px inset;		-->> gölge oluşturur ve "inset" koduyla çerçeve içinde oluşturur
+
+-----------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border-style: solid;
+                border-color: red;
+                border-width: 10px;
+                background-color: white;
+                width: 100px;
+                height: 300px;
+                float: left;			-->> bu kod sayesinde alt alta dizilen çerçeveler yan yana dizilir.
+                margin: 10px;		-->> aralarında 10px boşluk açılır.
+            }
+        </style>
+    </head>
+    <body>
+        <div id="kutu1">
+
+        </div>
+        <div id="kutu2">
+            
+        </div>
+        <div id="kutu3">
+            
+        </div>
+    </body>
+</html>

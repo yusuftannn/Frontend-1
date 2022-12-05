@@ -1,0 +1,6 @@
+<img src="resimler\martı.jpg" 
+alt="martı" 		-->> resim gözükmediğinde üstünde yazar.
+title="martı"		-->> resim üzerine geldiğimizde yazar.
+width="500" 		-->> genişlik
+height="300"		-->> yükseklik
+>

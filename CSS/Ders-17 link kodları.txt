@@ -1,0 +1,13 @@
+ a:link{				-->> ziyaret edilmemiş
+                color:black;
+            }
+            a:visited{			-->> ziyaret edilmiş
+                color:teal;
+            }
+            a:hover{			-->> mouse la üstüne geldiğimizde gözükecek olan
+                color:chocolate;
+                text-decoration: underline;
+            }
+            a:active{			-->> aktifken nasıl gözüksün.
+                color:red
+            }

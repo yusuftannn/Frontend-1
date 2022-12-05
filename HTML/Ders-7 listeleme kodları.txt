@@ -1,0 +1,6 @@
+<ul>	-->> nokta listeler
+<ol>	-->> type="A" 	tırnak içine ne yazarsak
+<li>	-->> üstteki kodların içine yazılır listelenecek kelimeler
+<dl>
+<dt>
+<dd>

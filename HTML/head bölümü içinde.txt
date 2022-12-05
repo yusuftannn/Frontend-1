@@ -1,0 +1,26 @@
+<head>
+   <meta charset="UTF-8">
+   <meta name="keywords" content="HTML, CSS, JavaScript">			-->> anahtar kelimeler
+   <meta name="description" content="Free Web tutorials">			-->> site hakkında bilgi
+   <meta name="author" content="Yusuf Tan">				-->> kodları yazan
+   <meta http-equiv="refresh" content="30">				-->> sayfayı 30 saniyede bir yeniler
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">	-->> site hangi cihazda açılırsa o cihazını boyutunu alır.
+</head>
+
+
+
+-->> head bölümü içinde bu elemanlar olur;
+***<title>
+
+bu etiketin global özellikleri;
+-class ( css uygulamak için )
+-id      ( belli javascript veya css kodunu uygulanmasını sağlar )
+-lang  ( dilini belirler )
+-style  ( satır içi css kodu uygulamamızı sağlar
+-title    ( bu etiket hakkında açıklama yapmamızı sağlar )
+
+***<base>
+***<link>
+***<meta>
+***<script>
+***<style>

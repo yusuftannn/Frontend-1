@@ -1,0 +1,15 @@
+Arama motorlarına içeriklerle ilgili bilgi verir ve sitenin üst sıralarda görünmesini sağlar
+
+hangi elemanları içerir;
+
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>		-->> fotoğraf koyar. fotoğraf hakkında sol altına veya sol üstüne bilgi verir
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
